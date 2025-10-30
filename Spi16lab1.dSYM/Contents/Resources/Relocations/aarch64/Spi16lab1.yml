@@ -1,0 +1,5 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/spitsa16/Documents/GitHub/Spitsin_16/Spi16lab1'
+relocations:     []
+...
