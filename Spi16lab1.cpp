@@ -104,9 +104,7 @@ void addStation(CompressorStation& station) {
 }
 
 // Отображение всех сохраненных объектов
-void displayObjects(const PipelineSegment& pipe, const CompressorStation& station) {
-    cout << "\n--- ТЕКУЩИЕ ОБЪЕКТЫ ---\n";
-
+void displayPipeline(const PipelineSegment& pipe) {
     cout << "\nСЕГМЕНТ ТРУБОПРОВОДА:\n";
     if (pipe.kmMark.empty()) {
         cout << "  Данные отсутствуют\n";
@@ -116,7 +114,9 @@ void displayObjects(const PipelineSegment& pipe, const CompressorStation& statio
         cout << "  Диаметр: " << pipe.diameterMm << " мм\n";
         cout << "  Статус ремонта: " << (pipe.isUnderRepair ? "На ремонте" : "Рабочий") << "\n";
     }
+}
 
+void displayStation(const CompressorStation& station) {
     cout << "\nКОМПРЕССОРНАЯ СТАНЦИЯ:\n";
     if (station.name.empty()) {
         cout << "  Данные отсутствуют\n";
@@ -126,6 +126,13 @@ void displayObjects(const PipelineSegment& pipe, const CompressorStation& statio
         cout << "  Класс: " << station.classLevel << "\n";
     }
 }
+
+void displayObjects(const PipelineSegment& pipe, const CompressorStation& station) {
+    cout << "\n--- ТЕКУЩИЕ ОБЪЕКТЫ ---\n";
+    displayPipeline(pipe);
+    displayStation(station);
+}
+
 
 // Изменение статуса ремонта трубопровода
 void toggleRepairStatus(PipelineSegment& pipe) {
