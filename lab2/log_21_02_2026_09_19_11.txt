@@ -1,0 +1,61 @@
+Sat Feb 21 09:19:11 2026 - program started
+Sat Feb 21 09:20:39 2026 - main menu choice: 1
+Sat Feb 21 09:20:48 2026 - pipe menu choice: 1
+Sat Feb 21 09:20:50 2026 - pipe name entered: alpha
+Sat Feb 21 09:20:53 2026 - input value: 100.000000
+Sat Feb 21 09:20:55 2026 - input value: 50.000000
+Sat Feb 21 09:20:55 2026 - pipe added — length: 100.000000 km, diameter: 50.000000 mm
+Sat Feb 21 09:20:55 2026 - pipe added with id: 1
+Sat Feb 21 09:20:58 2026 - pipe menu choice: 1
+Sat Feb 21 09:21:02 2026 - pipe name entered: beta
+Sat Feb 21 09:21:05 2026 - input value: 200.000000
+Sat Feb 21 09:21:08 2026 - input value: 50.000000
+Sat Feb 21 09:21:08 2026 - pipe added — length: 200.000000 km, diameter: 50.000000 mm
+Sat Feb 21 09:21:08 2026 - pipe added with id: 2
+Sat Feb 21 09:21:12 2026 - pipe menu choice: 1
+Sat Feb 21 09:21:17 2026 - pipe name entered: gamma
+Sat Feb 21 09:21:21 2026 - input value: 300.000000
+Sat Feb 21 09:21:23 2026 - input value: 90.000000
+Sat Feb 21 09:21:23 2026 - pipe added — length: 300.000000 km, diameter: 90.000000 mm
+Sat Feb 21 09:21:23 2026 - pipe added with id: 3
+Sat Feb 21 09:21:34 2026 - pipe menu choice: 4
+Sat Feb 21 09:21:34 2026 - displayed pipe: gamma
+Sat Feb 21 09:21:34 2026 - displayed pipe: beta
+Sat Feb 21 09:21:34 2026 - displayed pipe: alpha
+Sat Feb 21 09:21:34 2026 - displayed all pipes
+Sat Feb 21 09:21:43 2026 - pipe menu choice: 1
+Sat Feb 21 09:21:51 2026 - pipe name entered: wqw
+Sat Feb 21 09:21:52 2026 - input value: 12.000000
+Sat Feb 21 09:21:53 2026 - input value: 12.000000
+Sat Feb 21 09:21:53 2026 - pipe added — length: 12.000000 km, diameter: 12.000000 mm
+Sat Feb 21 09:21:53 2026 - pipe added with id: 4
+Sat Feb 21 09:21:55 2026 - pipe menu choice: 3
+Sat Feb 21 09:21:55 2026 - displayed pipe: wqw
+Sat Feb 21 09:21:55 2026 - displayed pipe: gamma
+Sat Feb 21 09:21:55 2026 - displayed pipe: beta
+Sat Feb 21 09:21:55 2026 - displayed pipe: alpha
+Sat Feb 21 09:21:55 2026 - displayed all pipes
+Sat Feb 21 09:21:55 2026 - delete pipes menu opened
+Sat Feb 21 09:22:04 2026 - all pipes deleted
+Sat Feb 21 09:22:14 2026 - pipe menu choice: 0
+Sat Feb 21 09:23:34 2026 - main menu choice: 2
+Sat Feb 21 09:23:36 2026 - station menu choice: 1
+Sat Feb 21 09:23:41 2026 - station name entered: station_A
+Sat Feb 21 09:23:45 2026 - input value: 10
+Sat Feb 21 09:23:47 2026 - station added — total: 10, operational: 6
+Sat Feb 21 09:23:47 2026 - station added with id: 1
+Sat Feb 21 09:23:57 2026 - station menu choice: 1
+Sat Feb 21 09:23:59 2026 - station name entered: station_B
+Sat Feb 21 09:24:02 2026 - input value: 8
+Sat Feb 21 09:24:04 2026 - station added — total: 8, operational: 8
+Sat Feb 21 09:24:04 2026 - station added with id: 2
+Sat Feb 21 09:24:09 2026 - station menu choice: 4
+Sat Feb 21 09:24:09 2026 - displayed station: station_B
+Sat Feb 21 09:24:09 2026 - displayed station: station_A
+Sat Feb 21 09:24:09 2026 - displayed all stations
+Sat Feb 21 09:24:20 2026 - station menu choice: 0
+Sat Feb 21 09:24:41 2026 - main menu choice: 1
+Sat Feb 21 09:24:43 2026 - pipe menu choice: 5
+Sat Feb 21 09:40:22 2026 - pipe menu choice: 0
+Sat Feb 21 09:40:23 2026 - main menu choice: 0
+Sat Feb 21 09:40:23 2026 - program exited by user
